@@ -50,7 +50,7 @@ h2.no-margin {
     text-align: center;
     img {
       width: 300px;
-      filter: grayscale(100%);
+      //filter: grayscale(100%);
     }
   }
 }
@@ -148,6 +148,11 @@ h2.no-margin {
   background-color: #23bec2;
   color: #fff;
 }
+.content_wrapper.style5 {
+  background-color: #efefef;
+  color: #444;
+}
+
 .content_block {
   padding: 20px;
   border-radius: 6px;

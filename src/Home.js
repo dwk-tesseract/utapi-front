@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import amazon from './images/AmazonS3.png';
 import metrics from './images/metrics.jpg';
 

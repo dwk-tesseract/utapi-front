@@ -18,7 +18,7 @@ class Header extends Component {
               Home
             </NavLink>
             <NavLink to="/bucket" className="bucket">
-              Bucket
+              test bucket
             </NavLink>
           </nav>
         </div>

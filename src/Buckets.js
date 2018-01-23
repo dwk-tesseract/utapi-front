@@ -27,7 +27,7 @@ class BucketClass extends Component {
   componentDidMount() {
     var myHeaders = new Headers();
     var data = {
-      buckets: ['toto'],
+      buckets: ['test bucket'],
       timeRange: [
         this.getStartTimestamp(new Date()),
         this.getEndTimestamp(new Date())

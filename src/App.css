@@ -78,8 +78,7 @@ h2.no-margin {
     padding: 20px;
     text-align: center; }
     .top_header header img {
-      width: 300px;
-      filter: grayscale(100%); }
+      width: 300px; }
 
 .main_nav {
   padding: 10px 0;
@@ -159,6 +158,10 @@ h2.no-margin {
 .content_wrapper.style4 {
   background-color: #23bec2;
   color: #fff; }
+
+.content_wrapper.style5 {
+  background-color: #efefef;
+  color: #444; }
 
 .content_block {
   padding: 20px;
