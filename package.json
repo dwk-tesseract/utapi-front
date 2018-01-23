@@ -1,5 +1,5 @@
 {
-  "name": "angry-bear",
+  "name": "Utapi front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,10 +29,7 @@
     "source-map-explorer": "^1.5.0"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
-      "git add"
-    ]
+    "src/**/*.{js,jsx,json,css}": ["prettier --single-quote --write", "git add"]
   },
   "jest": {
     "collectCoverageFrom": [
@@ -48,15 +45,15 @@
         "statements": 90
       }
     },
-    "coverageReporters": [
-      "text"
-    ]
+    "coverageReporters": ["text"]
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "precommit": "lint-staged",
-    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "build-css":
+      "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css":
+      "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
