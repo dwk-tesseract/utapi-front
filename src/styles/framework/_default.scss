@@ -1,0 +1,14 @@
+// LINK
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
